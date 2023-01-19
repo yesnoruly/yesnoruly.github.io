@@ -3,25 +3,54 @@
 
 <include src="partials/head.html">
     {
-        "title": "Parcel start template"
+    "title": "Parcel start template"
     }
 </include>
 
 <body class="page__body">
 
-    <include src="partials/header.html"></include>
+    <div class="page__grid">
+        <include src="partials/header.html"></include>
 
-    <main>
+        <main>
+            <section id="home" class="home">
+                <div class="home__avatar"><img src="assets/image/avatar.png" alt="Avatar"></div>
+                <p class="home__greetings">hi, my name is</p>
+                <p class="home__name">Karvacky Roma</p>
+                <p class="home__description">I'm a <span class="red">front-end</span> developer specializing in building
+                    (and
+                    occasionally designing) products with <span class="red">great UX</span>. I design and code
+                    <span class="red">beautiful</span>,
+                    <span class="red">accessible</span> and <span class="red">simple</span> things
+                </p>
+                <p class="home__skills">My skills: JavaScript, React, Svelte, HTML, CSS, SCSS, Responsive design, Bem
+                </p>
+            </section>
 
-        <section class="preview">
-            <img src="image/parcel.svg" class="preview__logo" alt="logo" />
-            <p class="preview__paragraph">This page is an example, <a class="preview__link" href="https://github.com/yesnoruly/parcel-start">back to readme</a></p>
-            <a class="preview__link" href="https://parceljs.org/" target="_blank">Parcel documentation</a>
-        </section>
+            <section class="projects" id="projects">
+                <h2 class="projects__title"><span class="red">01.</span> Some Things I've Built</h2>
+                <ul class="projects__grid">
 
-    </main>
+                    <li class="projects__item card">
+                        <div class="card__img"><img src="assets/image/card/loripsum.png" alt="Loripsum generator"></div>
+                        <div class="card__content">
+                            <h3 class="card__title">Lorem Ipsum Generator</h3>
+                            <p class="card__paragraph">Simple fish text generator</p>
+                            <ul class="card__tags">
+                                <li class="card__tag">React</li>
+                                <li class="card__tag">Css Modules</li>
+                                <li class="card__tag">Effector</li>
+                                <li class="card__tag">Feature Sliced</li>
+                            </ul>
+                        </div>
+                    </li>
 
-    <include src="partials/footer.html"></include>
+                </ul>
+            </section>
+        </main>
+
+        <include src="partials/footer.html"></include>
+    </div>
 
     <include src="partials/scripts.html"></include>
 </body>

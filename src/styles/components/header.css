@@ -1,1 +1,41 @@
 /* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+    max-width: 1328px;
+    margin: 0 auto;
+    padding: 35px 10px;
+}
+
+/* List */
+
+.header__list {
+    flex: 1 1 auto;
+
+    display: flex;
+    gap: 50px;
+}
+
+/* Item */
+
+.header__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header__item a {
+    color: #000;
+}
+
+.header__sound {}
+
+.header__switch {
+    display: flex;
+    align-items: center;
+}

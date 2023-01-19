@@ -1,0 +1,20 @@
+.projects {
+    max-width: 1328px;
+    padding: 30px 10px 80px;
+    margin: 0 auto;
+}
+
+.projects__grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+    margin-top: 40px;
+}
+
+.projects__item {
+    min-height: 530px;
+}
+
+.projects__title {}
