@@ -1,0 +1,44 @@
+.card-small {
+    padding: 20px;
+    background: #2E2E2E;
+    color: #fff;
+
+    position: relative;
+}
+
+/* Icons */
+
+.card-small__icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Title */
+
+.card-small__title a {
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+
+    padding-top: 30px;
+}
+
+.card-small__title a::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Paragraph */
+
+.card-small__paragraph {
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-top: 30px;
+}

@@ -6,7 +6,7 @@
 
 /* Grid */
 
-.projects__grid {
+.projects__main {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
@@ -15,10 +15,15 @@
     margin-top: 40px;
 }
 
-/* Item */
+/* Other */
 
-.projects__item {
-    min-height: 530px;
+.projects__other {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    margin-top: 25px;
 }
 
 /* Title */
@@ -37,10 +42,35 @@
     position: relative;
 }
 
-.projects__title::after{
+.projects__title::after {
     content: '';
     display: block;
     background: #666666AB;
-    height: 1px; 
+    height: 1px;
     flex: 0 1 350px;
+}
+
+/* Title other */
+
+.projects__title-other {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.projects__title-other::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 168, 168, 0.7);
+    bottom: 4px;
+    left: 0;
+    z-index: -1;
 }
