@@ -1,1 +1,12 @@
 /* Footer */
+
+.footer {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+}
