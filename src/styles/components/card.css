@@ -9,6 +9,8 @@
     overflow: hidden;
 
     min-height: 530px;
+
+    box-shadow: var(--shadow-elevation-high);
 }
 
 @media (max-width: 928px) {
