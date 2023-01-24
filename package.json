@@ -8,7 +8,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build src/*.html --public-url /parcel-start/"
+    "build": "parcel build src/*.html --public-url /yesnoruly.github.io/"
   },
   "devDependencies": {
     "@parcel/transformer-webmanifest": "^2.8.3",
