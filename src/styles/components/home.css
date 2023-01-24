@@ -5,10 +5,21 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .home {
+        padding: 20px;
+    }
+}
+
 /* Avatar */
 
+.home__avatar {
+    display: flex;
+    justify-content: center;
+}
+
 .home__avatar img {
-    width: 300px;
+    max-width: 100%;
 }
 
 /* Greetings */
@@ -24,6 +35,8 @@
     margin: 30px 0 15px;
 }
 
+/* Name */
+
 .home__name {
     font-family: 'Barrio';
     font-weight: 400;
@@ -35,14 +48,42 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+    .home__name {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home__name {
+        margin-bottom: 15px;
+    }
+}
+
+/* Text */
+
 .home__description,
 .home__skills {
     font-size: 20px;
     line-height: 26px;
 }
 
+@media (max-width: 768px) {
+    .home__description,
+    .home__skills {
+        font-size: 15px;
+    }
+}
+
 /* Skills */
 
 .home__skills {
     margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .home__description,
+    .home__skills {
+        margin-top: 15px;
+    }
 }

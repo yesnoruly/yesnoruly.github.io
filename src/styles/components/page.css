@@ -6,16 +6,27 @@
     line-height: 26px;
 
     height: 100%;
+
+    scroll-behavior: smooth;
 }
+
+/* Body */
 
 .page__body {
     min-height: 100%;
     display: grid;
-    
+
     border: 10px solid #9A3830;
 }
+
+.page__body.lock {
+    overflow-y: hidden;
+}
+
+/* Grid */
 
 .page__grid {
     display: grid;
     grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto;
 }

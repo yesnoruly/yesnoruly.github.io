@@ -1,6 +1,6 @@
 .contact {
     max-width: 788px;
-    padding: 50px 10px 60px;
+    padding: 0 10px 60px;
     margin: 0 auto;
 
     text-align: center;
@@ -9,9 +9,7 @@
 /* Title */
 
 .contact__title {
-    font-weight: 400;
-    font-size: 20px;
-    color: #BA3A3A;
+    text-align: center;
 }
 
 /* Subtitle */
