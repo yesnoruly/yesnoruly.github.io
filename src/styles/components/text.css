@@ -1,0 +1,10 @@
+.text {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 15px;
+    }
+}
