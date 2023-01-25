@@ -34,8 +34,9 @@
 
 .contact__icons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 253px 50px;
 
     margin-top: 30px;
 }

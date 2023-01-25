@@ -1,8 +1,8 @@
 /* Header */
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr max-content max-content max-content;
+    display: flex;
+
     align-items: center;
     width: 100%;
     max-width: 1328px;
@@ -64,6 +64,7 @@
 
 @media (max-width: 768px) {
     .header__burger {
+        margin-right: auto;
         display: block;
         width: 30px;
         height: 20px;
