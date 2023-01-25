@@ -38,6 +38,12 @@
     opacity: 1;
 }
 
+@media (max-width: 768px) {
+    .card::before {
+        opacity: 1;
+    }
+}
+
 /* Content */
 
 .card__content {
@@ -50,10 +56,11 @@
     z-index: 2;
 }
 
-@media (max-width: 666px) {
-    .card__content, 
-    .card--visible .card__content {
+@media (max-width: 768px) {
+    .card__content {
+        opacity: 1;
         padding: 10px;
+        visibility: visible;
     }
 }
 
