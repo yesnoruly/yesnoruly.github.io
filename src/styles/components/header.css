@@ -54,18 +54,7 @@
     --d: -101%;
 }
 
-/* Buttons */
-
-.header__sound {
-    height: 24px;
-    width: 31px;
-
-    z-index: 100;
-}
-
-.header__sound--disable .header__sound-stick {
-    display: none;
-}
+/* Button */
 
 .header__switch {
     display: flex;
