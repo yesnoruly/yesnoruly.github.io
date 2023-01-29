@@ -4,6 +4,8 @@
     margin: 0 auto;
 
     text-align: center;
+
+    color: var(--c-primary-1);
 }
 
 /* Title */

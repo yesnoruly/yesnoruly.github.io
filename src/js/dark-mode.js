@@ -8,9 +8,9 @@ const switch_on = new Audio('https://user-images.githubusercontent.com/64963734/
 themeSwitch.addEventListener('click', () => {
     themeSwitch.classList.toggle('header__switch--disable')
 
-    if(themeSwitch.classList.contains('.header__switch--disable')) {
+    if (themeSwitch.classList.contains('.header__switch--disable')) {
         playSound(switch_off)
     } else {
         playSound(switch_on)
     }
-})
+});

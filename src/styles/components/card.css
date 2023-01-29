@@ -10,7 +10,7 @@
 
     min-height: 530px;
 
-    box-shadow: var(--shadow-elevation-high);
+    box-shadow: var(--shadow-elevation-medium);
 }
 
 @media (max-width: 928px) {
@@ -103,7 +103,7 @@
 .card__title a {
     font-weight: 700;
     font-size: 30px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@
     line-height: 20px;
     letter-spacing: -0.04em;
 
-    color: #FFFFFF;
+    color: #fff;
 
     margin-top: 10px;
 }

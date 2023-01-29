@@ -11,9 +11,9 @@
 .tags__item {
     font-weight: 700;
     font-size: 11px;
-    color: #FFFFFF;
+    color: #fff;
 
     padding: 4px 10px;
-    background: #BA3A3A;
+    background: var(--c-accent-1);
     border-radius: 50px;
 }

@@ -5,6 +5,12 @@
     z-index: 100;
 }
 
+/* Theme */
+
+.dark .sound path {
+    stroke: #fff;
+}
+
 /* Items animation */
 
 .sound--disable .sound__item {

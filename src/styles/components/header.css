@@ -35,10 +35,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    color: var(--c-primary-1);
 }
 
 .header__item a {
-    color: #000;
+    color: var(--c-primary-1);
 }
 
 .header__item a[href] {
@@ -46,7 +47,7 @@
     padding: 10px;
 
     background:
-        linear-gradient(#9A3830 0 0) var(--d, 201%) 100% /200% 3px no-repeat;
+        linear-gradient(var(--c-accent-1) 0 0) var(--d, 201%) 100% /200% 3px no-repeat;
     transition: 0.5s;
 }
 
@@ -86,7 +87,7 @@
         position: absolute;
         left: 0;
         height: 3px;
-        background-color: #000000;
+        background-color: var(--c-primary-1);
         transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1) 0s;
     }
 
@@ -108,7 +109,7 @@
         bottom: 9px;
         width: 100%;
         height: 3px;
-        background-color: #000000;
+        background-color: var(--c-primary-1);
         transition: all 0.4s ease 0s;
     }
 
@@ -145,8 +146,12 @@
 
         padding: 100px 0px 50px;
         transition: top 0.3s ease 0s;
-        background-color: #eebab6;
+        background-color: var(--c-accent-2);
         z-index: 5;
+    }
+
+    .dark .header__list {
+        background-color: #2a2929;
     }
 
     .header__list.header--active {
