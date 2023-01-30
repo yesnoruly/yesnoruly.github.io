@@ -1,6 +1,7 @@
 import { playSound } from "./sound";
 
 const themeSwitch = document.querySelector('.header__switch');
+
 // Sound
 const switch_off = new Audio('https://user-images.githubusercontent.com/64963734/215277655-2a6fe4fa-935c-4087-aef5-9170c6789067.mp4')
 const switch_on = new Audio('https://user-images.githubusercontent.com/64963734/215277657-f068ca6a-88ed-463e-8cb0-b9f1136ab60f.mp4')
@@ -14,3 +15,21 @@ themeSwitch.addEventListener('click', () => {
         playSound(switch_on)
     }
 });
+
+const currentTheme = localStorage.getItem('theme')
+
+if (currentTheme == 'dark') {
+    document.documentElement.classList.add('dark')
+}
+
+themeSwitch.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
+
+    let theme = '';
+
+    if (currentTheme === '') {
+        theme = 'dark'
+    }
+
+    localStorage.setItem('theme', theme)
+})

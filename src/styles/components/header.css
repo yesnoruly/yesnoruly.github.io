@@ -55,16 +55,17 @@
     --d: -101%;
 }
 
-/* Button */
+/* Switch */
 
 .header__switch {
     display: flex;
     align-items: center;
 
-    width: 25px;
-    height: 25px;
-
     z-index: 100;
+}
+
+.dark .header__switch path {
+    fill: #fff;
 }
 
 /* Burger */
