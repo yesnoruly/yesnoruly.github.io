@@ -17,8 +17,9 @@ themeSwitch.addEventListener('click', () => {
 });
 
 const currentTheme = localStorage.getItem('theme')
+const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
 
-if (currentTheme == 'dark') {
+if (currentTheme === 'dark') {
     document.documentElement.classList.add('dark')
 }
 
@@ -27,8 +28,8 @@ themeSwitch.addEventListener('click', () => {
 
     let theme = '';
 
-    if (currentTheme === 'dark') {
-        theme = 'dark'
+    if (prefersDarkTheme.matches) {
+        currentTheme === '' ? theme = 'dark' : null
     }
 
     localStorage.setItem('theme', theme)
