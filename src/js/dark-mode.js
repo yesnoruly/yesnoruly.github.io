@@ -27,7 +27,7 @@ themeSwitch.addEventListener('click', () => {
 
     let theme = '';
 
-    if (currentTheme === '') {
+    if (currentTheme === 'dark') {
         theme = 'dark'
     }
 
