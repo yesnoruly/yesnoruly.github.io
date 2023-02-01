@@ -11,6 +11,8 @@
     "build": "parcel build src/*.html --public-url /"
   },
   "devDependencies": {
+    "@parcel/core": "^2.8.3",
+    "@parcel/packager-raw-url": "^2.8.3",
     "@parcel/transformer-webmanifest": "^2.8.3",
     "autoprefixer": "^10.4.8",
     "parcel": "^2.6.0",
@@ -26,7 +28,6 @@
     "url": "https://github.com/yesnoruly/parcel-start/issues"
   },
   "dependencies": {
-    "@parcel/core": "^2.8.3",
-    "@parcel/packager-raw-url": "^2.8.3"
+    "focus-visible": "^5.2.0"
   }
 }

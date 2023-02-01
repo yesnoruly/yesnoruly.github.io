@@ -46,6 +46,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:focus,
+button:focus {
+  outline: 3px dashed var(--c-accent-1);
+}
+
 ul li,
 ol li {
   list-style: none;

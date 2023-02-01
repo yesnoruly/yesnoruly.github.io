@@ -34,7 +34,8 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.60) 80%);
 }
 
-.card--visible::before {
+.card--visible::before,
+.card:focus-within::before {
     opacity: 1;
 }
 
@@ -48,7 +49,6 @@
 
 .card__content {
     opacity: 0;
-    visibility: hidden;
     transition: all 0.4s ease;
 
     padding: 0 20px 10px;
@@ -60,13 +60,12 @@
     .card__content {
         opacity: 1;
         padding: 10px;
-        visibility: visible;
     }
 }
 
-.card--visible .card__content {
+.card--visible .card__content,
+.card:focus-within .card__content {
     opacity: 1;
-    visibility: visible;
 
     padding-bottom: 40px;
 }
