@@ -48,7 +48,7 @@
 
     background:
         linear-gradient(var(--c-accent-1) 0 0) var(--d, 201%) 100% /200% 3px no-repeat;
-    transition: 0.5s;
+    transition: background 0.5s;
 }
 
 .header__item a[href]:hover {
@@ -69,6 +69,10 @@
 }
 
 /* Burger */
+
+.header__burger {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .header__burger {
