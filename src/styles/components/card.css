@@ -51,9 +51,9 @@
     justify-content: end;
 
     opacity: 0;
-    transition: transform 0.4s ease, opacity 0.1s ease-in;
+    transition: transform 0.4s ease, opacity 0.2s ease-in;
 
-    padding: 0 20px 10px;
+    padding: 0 20px;
 
     transform: translateY(0);
 }
