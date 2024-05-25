@@ -22,7 +22,10 @@
 
 .home__avatar img {
     max-width: 100%;
-    border-radius: 50%;
+    border-radius: 70%;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
 }
 
 /* Greetings */
