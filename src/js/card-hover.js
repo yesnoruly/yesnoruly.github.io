@@ -4,7 +4,7 @@ const mq = window.matchMedia("(min-width: 768px)");
 const card = document.querySelectorAll('.card')
 
 // Sound
-const card_hover = new Audio('https://user-images.githubusercontent.com/64963734/215278132-6c65d3ee-018b-4125-b26c-d49cdd8d79fc.mp4')
+const card_hover = new Audio('https://css-tricks.com/examples/SoundOnHover/audio/beep.mp3')
 
 if (mq.matches) {
     for (let i = 0; i < card.length; i++) { // Prevent adding a class to all cards when hover
